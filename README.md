@@ -12,10 +12,13 @@ The pipeline includes data preprocessing, visualization, model training, and eva
 ---
 
 ## Project Structure
+```
 .
 ├── data_processing.py
 ├── experiment.py
 ├── README.md
+
+```
 
 ---
 
@@ -46,11 +49,13 @@ Create the following folder structure:
 
 Put all downloaded .gz files into this folder so it looks like:
 
+```
 ./data/MNIST/raw/
     train-images-idx3-ubyte.gz
     train-labels-idx1-ubyte.gz
     t10k-images-idx3-ubyte.gz
     t10k-labels-idx1-ubyte.gz
+```
 
 (Note: If extracted files like .idx3-ubyte also exist, it's fine.)
 
